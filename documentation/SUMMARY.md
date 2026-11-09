@@ -1,6 +1,6 @@
 # Table of Contents
 
-* [Welcome & Introduction](README.md)
+* [Start Here](README.md)
 
 ## Part I — Programming from Scratch
 * [1. What Is Programming?](part-1/chapter-01.md)
