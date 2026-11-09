@@ -1,5 +1,3 @@
-# TypeScript by Doing
-
 > **Learn programming fundamentals, master TypeScript, and build real-world applications through hands-on projects.** Designed for absolute beginners with zero prior experience.
 
 ---
