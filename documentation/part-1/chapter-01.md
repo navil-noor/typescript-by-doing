@@ -72,10 +72,10 @@ Syntax simply means the combination rules, principles and structural patterns to
 For example, lets look at a TypeScript example:
 
 ```typescript
-console.log("Hello World!");
+console.log("Hello, World!");
 ```
 
-This is a simple piece of code instructing the computer to display the text **Hello World!** on the screen or console.
+This is a simple piece of code instructing the computer to display the text **Hello, World!** on the screen or console.
 Don't worry about the extra stuff written, we'll go through them soon.
 
 Congrats! We just saw our first line of code.
@@ -96,10 +96,25 @@ Normally, tutorials make you install all sorts of complicated tools and software
 
 We will not do that for now. Let's start writing code using the official **TypeScript Playground**.
 
-**TypeScript Playground**
-
-> Write, edit, and execute TypeScript directly in your browser at [typescriptlang.org](https://www.typescriptlang.org/play).
-
+> Write, edit, and execute TypeScript directly in your browser at [typescriptlang.org](https://www.typescriptlang.org/play).  
 > *No account or software installation required for basic use.*
 
 When you go to the site and open it, you will find an editor with some example TypeScript code. We will write our first programs here.
+
+### 1.5 Writing Your First Code
+
+Open the TypeScript Playground, delete the example code and just write:
+
+```typescript
+console.log("Hello, World!");
+```
+
+The playground will automatically compile and show your TypeScript on the right side through JavaScript output (we don't need to understand what that is for our book) but let's click on **Run** above.
+
+This time you will see the clean output:
+
+```text
+Hello, World!
+```
+
+Congratulations! We have just written and executed our first TypeScript program.
