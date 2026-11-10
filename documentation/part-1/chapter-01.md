@@ -59,8 +59,8 @@ That language is known as a programming language.
 
 Some of the most popular programming languages are:
 
-• Typescript
-• Javascript
+• TypeScript
+• JavaScript
 • Python
 • C++
 • Rust
@@ -69,13 +69,23 @@ Each of these languages has their own rules to follow and comes along with synta
 
 Syntax simply means the combination rules, principles and structural patterns to combine symbols to create well formed code.
 
-For example, lets look at a Typescript example:
+For example, lets look at a TypeScript example:
 
 ```typescript
 console.log("Hello World!");
 ```
 
-This is a simple piece of code instructing the computer to display the text <b>Hello World!</b> on the screen or console.
+This is a simple piece of code instructing the computer to display the text **Hello World!** on the screen or console.
 Don't worry about the extra stuff written, we'll go through them soon.
 
 Congrats! We just saw our first line of code.
+
+### 1.3 Meet TypeScript
+
+TypeScript is a programming language developed and maintained by Microsoft.
+
+It can be used to build applications, websites, tools and much more.
+
+It was built on top of JavaScript and adds the static typing feature. Don't worry about this, we will explore this later.
+
+For now, just know TypeScript is the language we will use to talk to computers and learn how to write it.
