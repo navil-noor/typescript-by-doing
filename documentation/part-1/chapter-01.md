@@ -59,11 +59,11 @@ That language is known as a programming language.
 
 Some of the most popular programming languages are:
 
-• TypeScript
-• JavaScript
-• Python
-• C++
-• Rust
+* TypeScript
+* JavaScript
+* Python
+* C++
+* Rust
 
 Each of these languages has their own rules to follow and comes along with syntax.
 
@@ -89,3 +89,17 @@ It can be used to build applications, websites, tools and much more.
 It was built on top of JavaScript and adds the static typing feature. Don't worry about this, we will explore this later.
 
 For now, just know TypeScript is the language we will use to talk to computers and learn how to write it.
+
+### 1.4 Your First Programming Environment
+
+Normally, tutorials make you install all sorts of complicated tools and software before writing a single line of code.
+
+We will not do that for now. Let's start writing code using the official **TypeScript Playground**.
+
+**TypeScript Playground**
+
+> Write, edit, and execute TypeScript directly in your browser at [typescriptlang.org](https://www.typescriptlang.org/play).
+
+> *No account or software installation required for basic use.*
+
+When you go to the site and open it, you will find an editor with some example TypeScript code. We will write our first programs here.
