@@ -50,3 +50,32 @@ Some examples of tasks:
 - Using the internet.
 
 Every software you ever used was created through programming that required specific instructions.
+
+### 1.2 What is code?
+
+Computers don't understand our human language and they have their own language.
+
+That language is known as a programming language.
+
+Some of the most popular programming languages are:
+
+• Typescript
+• Javascript
+• Python
+• C++
+• Rust
+
+Each of these languages has their own rules to follow and comes along with syntax.
+
+Syntax simply means the combination rules, principles and structural patterns to combine symbols to create well formed code.
+
+For example, lets look at a Typescript example:
+
+```typescript
+console.log("Hello World!");
+```
+
+This is a simple piece of code instructing the computer to display the text <b>Hello World!</b> on the screen or console.
+Don't worry about the extra stuff written, we'll go through them soon.
+
+Congrats! We just saw our first line of code.
