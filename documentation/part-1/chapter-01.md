@@ -118,3 +118,24 @@ Hello, World!
 ```
 
 Congratulations! We have just written and executed our first TypeScript program.
+
+### 1.6 Understanding the Instruction
+
+Let's examine what we wrote:
+
+```typescript
+console.log("Hello, World!");
+
+```
+
+There are three important elements:
+
+| Element | Meaning |
+| --- | --- |
+| `console` | A keyword that provides access to the console |
+| `log()` | A method of displaying information |
+| `"Hello, World!"` | The text we want to display |
+
+You don't have to worry about memorizing all this stuff. Just for now let's understand:
+
+> `console.log()` displays information.
