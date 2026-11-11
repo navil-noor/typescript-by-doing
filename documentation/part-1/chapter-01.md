@@ -20,6 +20,8 @@ By the end of this chapter you will be able to:
 
 Nothing to install.
 
+---
+
 ### 1.1 What is programming?
 
 Imagine you wish to make a burger.
@@ -51,6 +53,8 @@ Some examples of tasks:
 
 Every software you ever used was created through programming that required specific instructions.
 
+---
+
 ### 1.2 What is code?
 
 Computers don't understand our human language and they have their own language.
@@ -80,6 +84,8 @@ Don't worry about the extra stuff written, we'll go through them soon.
 
 Congrats! We just saw our first line of code.
 
+---
+
 ### 1.3 Meet TypeScript
 
 TypeScript is a programming language developed and maintained by Microsoft.
@@ -89,6 +95,8 @@ It can be used to build applications, websites, tools and much more.
 It was built on top of JavaScript and adds the static typing feature. Don't worry about this, we will explore this later.
 
 For now, just know TypeScript is the language we will use to talk to computers and learn how to write it.
+
+---
 
 ### 1.4 Your First Programming Environment
 
@@ -100,6 +108,8 @@ We will not do that for now. Let's start writing code using the official **TypeS
 > *No account or software installation required for basic use.*
 
 When you go to the site and open it, you will find an editor with some example TypeScript code. We will write our first programs here.
+
+---
 
 ### 1.5 Writing Your First Code
 
@@ -118,6 +128,8 @@ Hello, World!
 ```
 
 Congratulations! We have just written and executed our first TypeScript program.
+
+---
 
 ### 1.6 Understanding the Instruction
 
@@ -140,6 +152,8 @@ You don't have to worry about memorizing all this stuff. Just for now let's unde
 
 > `console.log()` displays information.
 
+---
+
 ### 1.7 Displaying Different Messages
 
 Try replacing the message with multiple instructions on your own or use the examples available below:
@@ -159,3 +173,52 @@ This is my first programming language!
 ```
 
 Did you notice? No matter how many instructions, the computer executes them strictly **in order**: first instruction, second instruction, third instruction.
+
+---
+
+### 1.8 Making the Computer Do Mathematics
+
+Programming is not only about displaying text messages. Computers are very powerful and can even do calculations.
+
+Let's try:
+
+```typescript
+console.log(10 + 2);
+```
+
+**Output:**
+
+```text
+12
+```
+
+You can also do the four basic mathematical operations (and a few extras too):
+
+```typescript
+console.log(10 + 2);  // Addition
+console.log(10 - 2);  // Subtraction
+console.log(10 * 2);  // Multiplication
+console.log(10 / 2);  // Division
+```
+
+**Output:**
+
+```text
+12
+8
+20
+5
+```
+
+Here are some mathematical symbols you'll use regularly:
+
+| Symbol | Operation |
+| --- | --- |
+| `+` | Addition |
+| `-` | Subtraction |
+| `*` | Multiplication |
+| `/` | Division |
+| `**` | Exponentiation |
+| `%` | Remainder |
+
+Try some practice on your own by changing the numbers around and seeing the results in your TS Playground!
