@@ -139,3 +139,23 @@ There are three important elements:
 You don't have to worry about memorizing all this stuff. Just for now let's understand:
 
 > `console.log()` displays information.
+
+### 1.7 Displaying Different Messages
+
+Try replacing the message with multiple instructions on your own or use the examples available below:
+
+```typescript
+console.log("My name is John.");
+console.log("I am learning TypeScript.");
+console.log("This is my first programming language!");
+```
+
+The output we should see:
+
+```text
+My name is John.
+I am learning TypeScript.
+This is my first programming language!
+```
+
+Did you notice? No matter how many instructions, the computer executes them strictly **in order**: first instruction, second instruction, third instruction.
