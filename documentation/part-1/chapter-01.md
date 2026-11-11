@@ -222,3 +222,61 @@ Here are some mathematical symbols you'll use regularly:
 | `%` | Remainder |
 
 Try some practice on your own by changing the numbers around and seeing the results in your TS Playground!
+
+---
+
+### 1.9 Guided Exercises
+
+Now for some practice. These exercises will help you to become comfortable writing and modifying code safely.
+
+**Exercise 1:** Display your first name using `console.log()`.
+
+<details>
+<summary><b>Hint</b> (Click to reveal)</summary>
+
+```typescript
+console.log("Your name");
+```
+</details>
+
+**Exercise 2:** Display the message: `I am learning TypeScript.`
+
+<details>
+<summary><b>Hint</b> (Click to reveal)</summary>
+
+```typescript
+console.log("The Text");
+```
+</details>
+
+**Exercise 3:** Calculate `25 + 75`.
+
+<details>
+<summary><b>Hint</b> (Click to reveal)</summary>
+
+```typescript
+console.log(firstNumber + secondNumber);
+```
+</details>
+
+**Exercise 4:** Calculate `150 - 45`.
+
+<details>
+<summary><b>Hint</b> (Click to reveal)</summary>
+
+```typescript
+console.log(firstNumber - secondNumber);
+```
+</details>
+
+**Exercise 5:** Calculate `12` multiplied by `8`.
+
+<details>
+<summary><b>Hint</b> (Click to reveal)</summary>
+
+```typescript
+console.log(firstNumber * secondNumber);
+```
+</details>
+
+---
