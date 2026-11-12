@@ -148,6 +148,9 @@ There are three important elements:
 | `log()` | A method of displaying information |
 | `"Hello, World!"` | The text we want to display |
 
+> **What about the `;` at the end?**  
+> Think of the semicolon (`;`) like a period at the end of a sentence—it tells the computer that this instruction is finished. TypeScript won't crash if you forget it, but adding it is a great habit that keeps your code clean and clear.
+
 You don't have to worry about memorizing all this stuff. Just for now let's understand:
 
 > `console.log()` displays information.
