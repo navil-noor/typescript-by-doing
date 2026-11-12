@@ -30,4 +30,4 @@ Every chapter follows a strict **6-Step Learning Cycle**:
 
 ---
 
-👉 **Ready to dive in?** Click **[1. What Is Programming?](part-1/chapter-01.md)** in the sidebar to write your first program!
+👉 **Ready to dive in?** Click **[What Is Programming?](part-1/chapter-01.md)** in the sidebar to write your first program!
