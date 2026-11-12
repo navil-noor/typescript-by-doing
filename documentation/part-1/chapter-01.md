@@ -319,3 +319,32 @@ console.log("I am learning TypeScript);
 
 Find and correct all three syntax mistakes.
 *(Hint: The TypeScript Playground might provide some hints).*
+
+---
+
+### 1.11 Practical Mini-Project: Build Your First Calculator
+
+Now its time to build a simple calculator that will display results of many mathematical operations.
+
+Your calculator program should:
+
+1. Display a welcome message.
+2. Display two numbers.
+3. Calculate their sum.
+4. Calculate their difference.
+5. Calculate their product.
+6. Calculate their division result.
+
+For this first project, use the numbers **10** and **20**.
+
+**Let me give you a headstart:**
+
+```typescript
+console.log("Welcome to my calculator!");
+console.log("First number: 10");
+console.log("Second number: 20");
+
+// Add your calculations below.
+```
+
+Try to do the project on your own and if you have too trouble you can look at the solutions below!
