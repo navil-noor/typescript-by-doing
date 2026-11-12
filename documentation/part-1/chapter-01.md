@@ -280,3 +280,42 @@ console.log(firstNumber * secondNumber);
 </details>
 
 ---
+
+### 1.10 Independent Challenges
+
+Let's try some exercises but this time without step-by-step instructions.
+
+**Challenge 1: Your Personal Introduction**
+
+Write a program that displays:
+
+* Your name.
+* Your country.
+* Your favourite hobby.
+* Why you're learning programming.
+
+*(Hint: Each item should appear on a separate line using its own `console.log()` statement).*
+
+**Challenge 2: Shopping Calculator**
+
+Imagine you've purchased:
+
+* 3 coffees costing €2 each.
+* 2 sandwiches costing €5 each.
+* 1 dessert costing €4.
+
+Write TypeScript instructions to calculate the total cost in a single calculation. Your program should display the final amount.
+*(Hint: You can look at 1.8 for some help).*
+
+**Challenge 3: Fix the Broken Program**
+
+The following code contains errors:
+
+```typescript
+console.log("Hello, world!);
+console.log(10 + );
+console.log("I am learning TypeScript);
+```
+
+Find and correct all three syntax mistakes.
+*(Hint: The TypeScript Playground might provide some hints).*
