@@ -348,3 +348,76 @@ console.log("Second number: 20");
 ```
 
 Try to do the project on your own and if you have too trouble you can look at the solutions below!
+
+---
+
+### 1.12 Solutions and Explanations
+
+**Guided Exercise Solutions**
+
+```typescript
+console.log("Alex");
+console.log("I am learning TypeScript.");
+console.log(25 + 75);
+console.log(150 - 45);
+console.log(12 * 8);
+```
+
+**Independent Challenge Solutions**
+
+*Challenge 1*
+
+```typescript
+console.log("My name is Marco.");
+console.log("I live in Italy.");
+console.log("My favourite hobby is gaming.");
+console.log("I am learning programming to build software.");
+```
+
+*Challenge 2*
+
+```typescript
+console.log(3 * 2 + 2 * 5 + 1 * 4);
+```
+
+*Output:*
+
+```text
+20
+```
+
+*Challenge 3*
+
+```typescript
+console.log("Hello, World!");
+console.log(10 + 5);
+console.log("I am learning TypeScript");
+```
+
+*Explanation:* The first and third instructions were missing closing quotation marks. The second instruction was missing a number after the addition operator.
+
+**Mini-Project Solution**
+
+```typescript
+console.log("Welcome to my calculator!");
+console.log("First number: 10");
+console.log("Second number: 20");
+console.log("Addition:", 10 + 20);
+console.log("Subtraction:", 10 - 20);
+console.log("Multiplication:", 10 * 20);
+console.log("Division:", 10 / 20);
+```
+
+*Output:*
+
+```text
+Welcome to my calculator!
+First number: 10
+Second number: 20
+Addition: 30
+Subtraction: -10
+Multiplication: 200
+Division: 0.5
+```
+
+So, how did it go?
