@@ -1,6 +1,8 @@
 # TypeScript by Doing
 ### A Practical Guide to Programming from Absolute Zero
 
+> **🚧 Work in Progress:** This book is actively being written and published chapter-by-chapter. **Part I, Chapter 1** is live now, with new chapters added regularly!
+
 Learn programming fundamentals, master TypeScript, and build real-world applications through hands-on projects. Designed specifically for absolute beginners with zero prior coding experience.
 
 ---
@@ -12,7 +14,7 @@ You can read the published, web-optimized version of the book here:
 ---
 
 ## 🎯 What Makes This Book Different?
-* **Zero Prior Knowledge Required:** We start from absolute scratch, using real-world analogies (like making a burger) to explain computer logic before introducing syntax.
+* **Zero Prior Knowledge Required:** We start from absolute scratch, using real-world analogies (like making a sandwich) to explain computer logic before introducing syntax.
 * **Code-First Learning:** No heavy, dry documentation. You write code from minute one using the browser playground before moving to a local development environment.
 * **The 6-Step Pedagogical Cycle:** Every chapter follows a structured, predictable learning path:
   1. **Explanation** — Introduce one concept in plain English.
