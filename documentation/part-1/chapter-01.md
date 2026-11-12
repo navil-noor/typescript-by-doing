@@ -424,3 +424,18 @@ Division: 0.5
 ```
 
 So, how did it go?
+
+---
+
+### 1.13 Chapter Summary & Looking Ahead
+
+Look how far you've come! In just this first chapter, you have:
+- Discovered what programming languages and syntax actually are.
+- Set up your workspace using the TypeScript Playground without installing any complex tools.
+- Printed messages and performed calculations using `console.log()`.
+- Successfully built and run your very first mini-project calculator.
+
+**What's next?**  
+Right now, our calculator had the numbers `10` and `20` written directly into the code. In **Chapter 2**, we will learn how to store, name, and change data using **variables** by giving our programs a memory! 
+
+See you in the next chapter!
