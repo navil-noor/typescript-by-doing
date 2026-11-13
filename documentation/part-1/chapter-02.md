@@ -134,3 +134,28 @@ The computer calculates the right side first (`10 + 5 = 15`), and then puts `15`
 If you try to do the same thing with a `const` variable, TypeScript will immediately add a helpful red underline warning, and if you try to run it, an error will show up saying that a constant cannot be reassigned.
 
 > **Try it out:** Just for the fun of it, change `let` to `const` in the code above and see what happens!
+
+---
+
+### 2.6 Combining Text and Variables
+
+In real programs, we rarely just print raw numbers without any text but actually we combine them with text to make readable messages that you can understand like what is this value for.
+
+The most efficient way to do this in TypeScript is using **template literals** that is basically text wrapped in backticks (``) instead of regular quotes, with `${}` around any variable you want to insert:
+
+```typescript
+const playerName = "John";
+let level = 3;
+
+console.log(`Welcome back, ${playerName}! You are on level ${level}.`);
+
+```
+
+**Output:**
+
+```text
+Welcome back, John! You are on level 3.
+
+```
+
+*(Tip: The backtick key `` is usually located at the top-left of your keyboard, right above the `Tab` key).*
