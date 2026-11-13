@@ -1,6 +1,6 @@
 # Chapter 2: Variables and Data Types
 
-*Teaching your programs how to remember, naming values and working with various kinds of information (data).
+*Teaching your programs how to remember, naming values and working with various kinds of information (data).*
 
 ---
 
@@ -16,3 +16,31 @@ So, to save your time you take a marker and write down on the boxes like **Books
 In programming, a **variable** is the same as a labeled cardboard box. It is a named container that goes into the computer's memory where you store an information to use later and even change when needed.
 
 Without these variables your programs will have to recalculate and retype every single value and the program will become unnecessarily long, complicated and messy.
+
+---
+
+### 2.2 Creating Variables: `let` and `const`
+
+In TypeScript, the two most common ways to create a variable are: `let` and `const`.
+
+* **`let`** creates a box whose contents you can change later.
+* **`const`** (short for *constant*) creates a box with a permanent seal and if you put something inside it, you can never replace it.
+
+Let's look at some TypeScript examples of creating variables:
+
+```typescript
+let userName = "John";
+const birthYear = 1998;
+
+```
+
+A detailed explanation of the first line:
+
+1. **`let`** instructs the computer to: *"Create a new variable that I might change later."*
+2. **`userName`** is the label or name we chose for our box.
+3. **`=`** is the assignment operator which puts the value on the right which is inside the box.
+4. **`"John"`** is the information or data with saved inside.
+5. **`;`** finishes the instruction.
+
+> **Which one should you use?**  
+> Start with `const` by default. If you later think that the value needs to be changed (like a game score or a total needs to change), switch it to `let`.
