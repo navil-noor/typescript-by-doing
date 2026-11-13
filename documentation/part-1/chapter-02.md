@@ -44,3 +44,19 @@ A detailed explanation of the first line:
 
 > **Which one should you use?**  
 > Start with `const` by default. If you later think that the value needs to be changed (like a game score or a total needs to change), switch it to `let`.
+
+---
+
+### 2.3 Basic Data Types
+
+When you are storing information you need to keep a simple logic in mind. Just like how you would not put soup inside a cardboard box, you need to put the correct data inside the correct container or space. These various kinds of information are known as **data types**.
+
+For now, we only need to know and remember three core types:
+
+| Data Type | What It Represents | Examples |
+| --- | --- | --- |
+| **String** | Plain text guarded by quotes | `"Hello"`, `"Alex"`, `"123"` |
+| **Number** | Any numbers and decimals | `42`, `3.14`, `-10` |
+| **Boolean** | True or false values | `true`, `false` |
+
+> Notice that `"123"` in quotes is a **string** (text), while `123` without quotes is a **number** which you use for mathematical calculations.
