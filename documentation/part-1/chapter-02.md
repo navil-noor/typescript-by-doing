@@ -93,3 +93,44 @@ When we pass a variable name inside `console.log()`, we did **not** put quotes a
 
 * `console.log(city);` prints the value stored inside the box (`Rome`).
 * `console.log("city");` but using quotes like this would literally print the word: `city`.
+
+---
+
+### 2.5 Updating Variable Values
+
+Now let's explore the differences between `let` and `const` with some examples. Copy and run this in your TypeScript Playground:
+
+```typescript
+let score = 0;
+console.log(score);
+
+score = 10;
+console.log(score);
+
+score = score + 5;
+console.log(score);
+
+```
+
+**Output:**
+
+```text
+0
+10
+15
+
+```
+
+Focus on `score = score + 5;`.
+
+In math, that looks impossible, right? But remember in algebra we do something similar, like `a + 5`, correct?
+
+In programming, `=` means **assign**, not "equals" (this is a very important concept to remember).
+
+The computer calculates the right side first (`10 + 5 = 15`), and then puts `15` back into the `score` box.
+
+> **Important Rule:** You only write `let` once and only when you first create the variable. When you change it later, just use its name directly (`score = 10;`).
+
+If you try to do the same thing with a `const` variable, TypeScript will immediately add a helpful red underline warning, and if you try to run it, an error will show up saying that a constant cannot be reassigned.
+
+> **Try it out:** Just for the fun of it, change `let` to `const` in the code above and see what happens!
