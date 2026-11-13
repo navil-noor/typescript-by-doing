@@ -60,3 +60,36 @@ For now, we only need to know and remember three core types:
 | **Boolean** | True or false values | `true`, `false` |
 
 > Notice that `"123"` in quotes is a **string** (text), while `123` without quotes is a **number** which you use for mathematical calculations.
+
+---
+
+### 2.4 Storing and Displaying Variables
+
+Lets now try something, open the TypeScript Playground, clear the editor, and run the following code:
+
+```typescript
+const city = "Rome";
+let temperature = 22;
+const isSunny = true;
+
+console.log(city);
+console.log(temperature);
+console.log(isSunny);
+
+```
+
+**Output:**
+
+```text
+Rome
+22
+true
+
+```
+
+**Did you notice?**
+
+When we pass a variable name inside `console.log()`, we did **not** put quotes around it.
+
+* `console.log(city);` prints the value stored inside the box (`Rome`).
+* `console.log("city");` but using quotes like this would literally print the word: `city`.
