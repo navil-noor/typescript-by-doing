@@ -17,18 +17,18 @@ You can read the published, web-optimized version of the book here:
 * **Zero Prior Knowledge Required:** We start from absolute scratch, using real-world analogies (like making a sandwich) to explain computer logic before introducing syntax.
 * **Code-First Learning:** No heavy, dry documentation. You write code from minute one using the browser playground before moving to a local development environment.
 * **The 6-Step Pedagogical Cycle:** Every chapter follows a structured, predictable learning path:
-  1. **Explanation** — Introduce one concept in plain English.
-  2. **Demonstration** — Write real TypeScript code together, explaining every line.
-  3. **Guided Exercise** — Modify existing code to reinforce the core concept.
-  4. **Independent Challenge** — Solve a problem independently.
-  5. **Practical Project** — Apply knowledge to something useful and tangible.
-  6. **Solutions & Explanations** — Complete solutions breaking down the reasoning.
+  1. **Explanation:** Introduce one concept in plain English.
+  2. **Demonstration:** Write real TypeScript code together, explaining every line.
+  3. **Guided Exercise:** Modify existing code to reinforce the core concept.
+  4. **Independent Challenge:** Solve a problem independently.
+  5. **Practical Project:** Apply knowledge to something useful and tangible.
+  6. **Solutions & Explanations:** Complete solutions breaking down the reasoning.
 
 ---
 
 ## 📚 Complete Book Structure
 
-### Part I — Programming from Scratch
+### Part I - Programming from Scratch
 * What Is Programming?
 * Variables and Data Types
 * Conditions and Decision-Making
@@ -37,13 +37,13 @@ You can read the published, web-optimized version of the book here:
 * Arrays and Objects
 * Working with Errors
 
-### Part II — Understanding How TypeScript Works
+### Part II - Understanding How TypeScript Works
 * What JavaScript Is and Why TypeScript Builds on It
 * What a Compiler Does & How TypeScript Becomes JavaScript
 * What Happens When a Program Runs
 * Compile-Time Errors vs. Runtime Errors
 
-### Part III — Learning TypeScript
+### Part III - Learning TypeScript
 * Type Annotations
 * Interfaces and Type Aliases
 * Union Types
@@ -52,7 +52,7 @@ You can read the published, web-optimized version of the book here:
 * Modules and Imports
 * Asynchronous Programming
 
-### Part IV — Automating Real Tasks
+### Part IV - Automating Real Tasks
 * Installing TypeScript and Setting Up Your Environment (VS Code & Node.js)
 * Organizing Files and Folders
 * Reading and Writing Files
@@ -60,7 +60,7 @@ You can read the published, web-optimized version of the book here:
 * Calling APIs
 * Automating Repetitive Tasks
 
-### Part V — Building Real Applications
+### Part V - Building Real Applications
 * Expense Tracker
 * Inventory Management System
 * Personal Productivity Application
@@ -92,4 +92,4 @@ typescript-by-doing/
 ---
 
 ## 🤝 Contributing & Feedback
-Found a typo, got stuck on an exercise, or want to suggest an improvement? Feel free to open an issue or submit a pull request!
+Found a typo or got stuck on an exercise or want to suggest an improvement? Feel free to open an issue or submit a pull request!
