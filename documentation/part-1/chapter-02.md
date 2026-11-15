@@ -259,3 +259,32 @@ userScore = 75;
 let 2ndPlayer = "Sam";
 console.log("Player: ${2ndPlayer}");
 ```
+
+---
+
+### 2.10 Practical Mini-Project: Upgrade Your Calculator
+
+I hope you didn't forget about the calculator you built in Chapter 1. We had to type the numbers `10` and `20` over and over again for every single calculation which is bad practice and inefficient you know. If you wanted to test two new numbers you have to go back and change those numbers in each and every line. Miss and mistakes happen!
+
+Time to upgrade our calculator using real variables so you only have to change the numbers in **one place**.
+
+Your upgraded calculator must:
+
+1. Store your two numbers in variables called `num1` and `num2` (for starting use `10` and `20` to test if it works).
+2. Lets make the calculator better by storing the results of addition, subtraction, multiplication and division in their own variables (lets call them: `sum`, `difference`, `product`, `quotient`).
+3. Print a clean and formatted report using template literals (``).
+
+**Let me give you a headstart again:**
+
+```typescript
+const num1 = 10;
+const num2 = 20;
+
+// Store your calculations in variables below:
+
+
+// Display your results using template literals below:
+console.log(`Calculating results for ${num1} and ${num2}:`);
+```
+
+Once your program works as it should, test it out with some new likes like changing `num1` to `50` and `num2` to `5` then watch the entire output update automatically!
