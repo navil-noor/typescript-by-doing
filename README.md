@@ -1,7 +1,7 @@
 # TypeScript by Doing
 ### A Practical Guide to Programming from Absolute Zero
 
-> **🚧 Work in Progress:** This book is actively being written and published chapter-by-chapter. **Part I, Chapter 1** is live now, with new chapters added regularly!
+> **🚧 Work in Progress:** This book is actively being written and published chapter-by-chapter. **Part I, Chapter 2** is now live, with new chapters added regularly!
 
 Learn programming fundamentals, master TypeScript, and build real-world applications through hands-on projects. Designed specifically for absolute beginners with zero prior coding experience.
 
