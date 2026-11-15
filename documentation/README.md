@@ -4,9 +4,9 @@
 
 ### Welcome!
 
-If you have never written a single line of code in your life, you are in the right place. 
+If this is your first time trying to code then you are in the right place.
 
-Most programming books jump straight into complex technical terms, terminal commands, and abstract math. **TypeScript by Doing** takes a completely different approach: we learn by writing code together, step-by-step, using clear real-world analogies.
+Most programming books jump straight into complex technical words, terminal know-how and even abstract math. **TypeScript by Doing** takes a different and simple approach: its just learn by writing code together through step-by-step process and using clear real-world analogies without complicated words.
 
 ---
 
@@ -14,19 +14,19 @@ Most programming books jump straight into complex technical terms, terminal comm
 
 Every chapter follows a strict **6-Step Learning Cycle**:
 
-1. **Explanation** — Core concepts explained in plain English. No unexplained jargon.
-2. **Demonstration** — Line-by-line breakdown of working TypeScript code.
-3. **Guided Exercise** — Small, safe tweaks to build confidence.
-4. **Independent Challenge** — Solve a problem on your own.
-5. **Practical Project** — Build useful tools (Expense Trackers, Productivity Apps, APIs).
-6. **Solutions & Explanations** — Complete answer key showing *why* the solution works.
+1. **Explanation:** Core concepts explained in simple English. No complex or unexplained jargon.
+2. **Demonstration:** Line-by-line breakdown of working TypeScript code.
+3. **Guided Exercise:** Small and safe edits to build confidence.
+4. **Independent Challenge:** Solve problems on your own.
+5. **Practical Project:** Build some useful tools along the way (Expense Trackers, Productivity Apps, APIs to name a few).
+6. **Solutions & Explanations:** Complete answer key showing *why* a solution works.
 
 ---
 
 ### 🛠️ What You Need
 
 * **No software installation required to start.** You will write and run your first TypeScript program right in your browser.
-* A text editor (like VS Code) and Node.js will be introduced step-by-step in Part IV when you are ready.
+* A text editor (like VS Code) and Node.js will be introduced step-by-step in Part IV after learning the basics.
 
 ---
 
