@@ -1,6 +1,6 @@
 # Chapter 2: Variables and Data Types
 
-*Teaching your programs how to remember, naming values and working with various kinds of information (data).*
+*Teaching your programs how to remember, name values and work with various kinds of information (data).*
 
 ---
 
@@ -11,9 +11,9 @@ Imagine that you are moving to a new house so you need to pack up your stuff in 
 You take a cardboard box, put your books. Then take another box to put your kitchen items. Then another box to put your electronic devices.
 
 Now when you take it to your new home you need to be able to know exactly which box contains which items.
-So, to save your time you take a marker and write down on the boxes like **Books**, **Kitchen** or **Electronis**.
+So, to save your time you take a marker and write down on the boxes like **Books**, **Kitchen** or **Electronics**.
 
-In programming, a **variable** is the same as a labeled cardboard box. It is a named container that goes into the computer's memory where you store an information to use later and even change when needed.
+In programming, a **variable** is the same as a labeled cardboard box. It is a named container that goes into the computer's memory where you store information to use later and even change when needed.
 
 Without these variables your programs will have to recalculate and retype every single value and the program will become unnecessarily long, complicated and messy.
 
@@ -39,7 +39,7 @@ A detailed explanation of the first line:
 1. **`let`** instructs the computer to: *"Create a new variable that I might change later."*
 2. **`userName`** is the label or name we chose for our box.
 3. **`=`** is the assignment operator which puts the value on the right which is inside the box.
-4. **`"John"`** is the information or data with saved inside.
+4. **`"John"`** is the information or data saved inside.
 5. **`;`** finishes the instruction.
 
 > **Which one should you use?**  
@@ -260,6 +260,18 @@ let 2ndPlayer = "Sam";
 console.log("Player: ${2ndPlayer}");
 ```
 
+<details>
+<summary><b>Hint</b> (Click to reveal)</summary>
+
+**Check three things:**
+
+1. Can a const variable be updated later? (See 2.2)
+
+2. Is 2ndPlayer a valid variable name? (See 2.7)
+
+3. What kind of quotes do template literals need? (See 2.6)
+</details>
+
 ---
 
 ### 2.10 Practical Mini-Project: Upgrade Your Calculator
@@ -287,7 +299,7 @@ const num2 = 20;
 console.log(`Calculating results for ${num1} and ${num2}:`);
 ```
 
-Once your program works as it should, test it out with some new likes like changing `num1` to `50` and `num2` to `5` then watch the entire output update automatically!
+Once your program works as it should, test it out with some new values like changing `num1` to `50` and `num2` to `5` then watch the entire output update automatically!
 
 ---
 
@@ -394,3 +406,20 @@ Subtraction: -10
 Multiplication: 200
 Division: 0.5
 ```
+
+---
+
+### 2.12 Chapter Summary & Looking Ahead
+
+Look at what you learned to do in Chapter 2:
+
+* You learned about storing data in your program's memory using **`const`** and **`let`**.
+* You played with TypeScript's three foundational data types: **strings**, **numbers**, and **booleans**.
+* You learned how to use variables directly into text using **template literals** (``${}``).
+* You upgraded your Chapter 1 calculator into a dynamic and reusable program with just a few edits!
+
+**What's next?**
+
+For now our programs run every single line from top to bottom without any changes or steps which is simple and ok for small work. In **Chapter 3**, we will teach our code how to think and react using **conditions and decision-making** (`if` and `else`).
+
+See you in the next chapter!
