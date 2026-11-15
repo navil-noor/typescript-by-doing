@@ -159,3 +159,19 @@ Welcome back, John! You are on level 3.
 ```
 
 *(Tip: The backtick key `` is usually located at the top-left of your keyboard, right above the `Tab` key).*
+
+---
+
+### 2.7 Naming Rules & Best Practices
+
+You can name your variables anything you like, almost, but you still need to follow a few simple rules:
+
+1. You cannot have spaces (`user name` will break).
+2. You cannot start with a number (`1stPlace` will break).
+3. Always remember that names are case-sensitive (`age` and `Age` are treated as two completely different boxes).
+
+In TypeScript, normally programmers use **camelCase** for multi-word names by starting with a lowercase letter and capitalizing each of the next new word:
+
+* `firstName`
+* `totalPrice`
+* `isLoggedIn`
