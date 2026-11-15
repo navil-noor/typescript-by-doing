@@ -175,3 +175,44 @@ In TypeScript, normally programmers use **camelCase** for multi-word names by st
 * `firstName`
 * `totalPrice`
 * `isLoggedIn`
+
+---
+
+### 2.8 Guided Exercises
+
+Lets practice trying to create, update and combine variables in your TypeScript Playground.
+
+**Exercise 1:** Create a `const` variable named `favouriteFood` that stores your favourite food and displays it using `console.log()`.
+
+```typescript
+const favouriteFood = "Your food";
+console.log(favouriteFood);
+```
+
+**Exercise 2:** Create a `let` variable named `currentAge` with your age, then print it, then update it to your age next year and finally print it again.
+
+```typescript
+let currentAge = 25;
+console.log(currentAge);
+currentAge = currentAge + 1;
+console.log(currentAge);
+```
+
+**Exercise 3:** This time create two variables: `itemPrice` (`15`) and `quantity` (`3`). Next create a third variable called `totalCost` that multiplies them together and display the value of `totalCost`.
+
+```typescript
+const totalCost = itemPrice * quantity;
+```
+
+**Exercise 4:** Create two variables for `bookTitle` and `author` then use a template literal (``) to print: `I am currently reading [bookTitle] by [author].`
+
+```typescript
+console.log(`I am currently reading ${bookTitle} by ${author}.`);
+```
+
+**Exercise 5:** Create a boolean variable this time and name it `isRaining` set it to `false` and display it.
+
+```typescript
+const isRaining = false;
+console.log(isRaining);
+```
