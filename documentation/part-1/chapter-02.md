@@ -216,3 +216,46 @@ console.log(`I am currently reading ${bookTitle} by ${author}.`);
 const isRaining = false;
 console.log(isRaining);
 ```
+
+---
+
+### 2.9 Independent Challenges
+
+Now try to solve these without looking at the hints first!
+
+**Challenge 1: Profile Card**
+Create variables to store a user's:
+- `username` (string)
+- `followers` (number)
+- `isVerified` (boolean)
+
+Print a clean summary using template literals (using backticks) that displays all three pieces of information across separate lines.
+
+<details>
+<summary><b>Hint</b> (Click to reveal)</summary>
+
+Use `const` for all three variables but remember to wrap your strings in backticks (``) so you can insert each variable using `${variableName}` across three separate `console.log()` statements.
+</details>
+
+**Challenge 2: Temperature Converter**
+Store a temperature in **Celsius** inside a variable called `celsius` (for example, `25`).
+Write a math formula that converts it to Fahrenheit and stores the result in a variable called `fahrenheit`.  
+*(Formula: Multiply Celsius by `9`, divide by `5`, then add `32`).*
+Display the result as: `25°C is equal to 77°F.`
+
+<details>
+<summary><b>Hint</b> (Click to reveal)</summary>
+
+You can write the math formula directly when creating your variable: `const fahrenheit = (celsius * 9) / 5 + 32;`. Then use a template literal to print both variables inside the sentence.
+</details>
+
+**Challenge 3: Fix the Broken Code**
+The code below has three mistakes. Find and fix them all:
+
+```typescript
+const userScore = 50;
+userScore = 75;
+
+let 2ndPlayer = "Sam";
+console.log("Player: ${2ndPlayer}");
+```
