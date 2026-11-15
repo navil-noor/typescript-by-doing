@@ -288,3 +288,109 @@ console.log(`Calculating results for ${num1} and ${num2}:`);
 ```
 
 Once your program works as it should, test it out with some new likes like changing `num1` to `50` and `num2` to `5` then watch the entire output update automatically!
+
+---
+
+### 2.11 Solutions and Explanations
+
+**Guided Exercise Solutions**
+
+```typescript
+// Exercise 1
+const favouriteFood = "Pizza";
+console.log(favouriteFood);
+
+// Exercise 2
+let currentAge = 28;
+console.log(currentAge);
+currentAge = currentAge + 1;
+console.log(currentAge);
+
+// Exercise 3
+const itemPrice = 15;
+const quantity = 3;
+const totalCost = itemPrice * quantity;
+console.log(totalCost);
+
+// Exercise 4
+const bookTitle = "TypeScript by Doing";
+const author = "Navil";
+console.log(`I am currently reading ${bookTitle} by ${author}.`);
+
+// Exercise 5
+const isRaining = false;
+console.log(isRaining);
+```
+
+**Independent Challenge Solutions**
+
+*Challenge 1*
+
+```typescript
+const username = "alex_codes";
+const followers = 142;
+const isVerified = true;
+
+console.log(`User: @${username}`);
+console.log(`Followers: ${followers}`);
+console.log(`Verified Account: ${isVerified}`);
+```
+
+*Challenge 2*
+
+```typescript
+const celsius = 25;
+const fahrenheit = (celsius * 9) / 5 + 32;
+
+console.log(`${celsius}°C is equal to ${fahrenheit}°F.`);
+```
+
+*Output:*
+
+```text
+25°C is equal to 77°F.
+```
+
+*Challenge 3*
+
+```typescript
+let userScore = 50;
+userScore = 75;
+
+let secondPlayer = "Sam";
+console.log(`Player: ${secondPlayer}`);
+```
+
+*Explanation:*
+
+1. `userScore` is declared with `const` so this prevented it from being updated to `75` and if you change it to `let` will fix this.
+2. Remember? Variable names cannot start with a number (`2ndPlayer` was renamed to `secondPlayer`).
+3. Template literals require backticks (``) instead of double quotes (`"`) for `${}` to work.
+
+**Mini-Project Solution**
+
+```typescript
+const num1 = 10;
+const num2 = 20;
+
+const sum = num1 + num2;
+const difference = num1 - num2;
+const product = num1 * num2;
+const quotient = num1 / num2;
+
+console.log(`Our results for ${num1} and ${num2}:`);
+console.log(`Addition: ${sum}`);
+console.log(`Subtraction: ${difference}`);
+console.log(`Multiplication: ${product}`);
+console.log(`Division: ${quotient}`);
+```
+
+*Output:*
+
+```text
+Our results for 10 and 20:
+Addition: 30
+Subtraction: -10
+Multiplication: 200
+Division: 0.5
+```
