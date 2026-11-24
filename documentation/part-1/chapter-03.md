@@ -89,3 +89,33 @@ We don't need to eat now!
 
 * If `hungry` is `yes`, the first block runs.
 * If `hungry` is anything other than `yes`, the computer automatically drops down into the `else` block and runs that code instead.
+
+---
+
+### 3.5 Multiple Choices: `else if`
+
+In real life (and programming) we get more than two options. For example, grading a test might involve an **A**, a **B**, a **C**, or a **Fail**.
+
+When you have multiple conditions at the same time you add **`else if`**:
+
+```typescript
+const testScore = 82;
+
+if (testScore >= 90) {
+  console.log("Grade: A");
+} else if (testScore >= 75) {
+  console.log("Grade: B");
+} else if (testScore >= 60) {
+  console.log("Grade: C");
+} else {
+  console.log("Grade: Fail");
+}
+```
+
+**Output:**
+
+```text
+Grade: B
+```
+
+The computer goes through each condition from top to bottom. As soon as a condition evaluates to true, it runs that specific block of code and skips the rest!
