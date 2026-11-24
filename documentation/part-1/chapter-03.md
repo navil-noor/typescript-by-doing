@@ -32,3 +32,33 @@ Below we have a table containing the most common comparison operators you will u
 | **`!==`** | Not equal to | `5 !== 3` | `true` |
 
 > **Important:** Keep in mind that we use **three equals signs (`===`)** to confirm if two things are exact equals in TypeScript. But we use a single equal sign (`=`) to *assign* values to variables!
+
+---
+
+### 3.3 The `if` Statement
+
+The most fundamental decision making word in all of programming is the **`if` statement**. It allows the computer to run a block of code *only* if a specific situation or circumstance is `true`.
+
+Let's look at a very simple example in TypeScript:
+
+```typescript
+const age = 30;
+
+if (age > 19) {
+  console.log("Congrats, you are an adult!");
+}
+```
+
+**Output:**
+
+```text
+Congrats, you are an adult!
+```
+
+Here is how the logic of an `if` statement works:
+
+1. **`if`** tells the computer a decision needs to be taken.
+2. **`(age > 19)`** is the question inside parentheses. If this is `true`, the computer goes inside the statement.
+3. **`{ ... }`** (curly braces) enclose the block of code or statement that should run only when the condition is true.
+
+If `age` was set to `15`, `15 > 19` would be `false`, and the computer would just simply skip our message inside the curly braces then continue to the next line. In this case output would be blank! You can test it in your playground and see for yourself.
