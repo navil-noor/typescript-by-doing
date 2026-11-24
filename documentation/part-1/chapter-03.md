@@ -62,3 +62,30 @@ Here is how the logic of an `if` statement works:
 3. **`{ ... }`** (curly braces) enclose the block of code or statement that should run only when the condition is true.
 
 If `age` was set to `15`, `15 > 19` would be `false`, and the computer would just simply skip our message inside the curly braces then continue to the next line. In this case output would be blank! You can test it in your playground and see for yourself.
+
+---
+
+### 3.4 Handling the Alternative: The `else` Statement
+
+We saw when the condition is `false` nothing happens, but what if you still want your program to do *something* instead of the *blank* we saw in the previous section?
+
+That's where `if`'s companion, known as **`else`** statement comes in as your fallback plan:
+
+```typescript
+const hungry = "no";
+
+if (hungry === "yes") {
+  console.log("Let's eat a sandwich!");
+} else {
+  console.log("We don't need to eat now!");
+}
+```
+
+**Output:**
+
+```text
+We don't need to eat now!
+```
+
+* If `hungry` is `yes`, the first block runs.
+* If `hungry` is anything other than `yes`, the computer automatically drops down into the `else` block and runs that code instead.
